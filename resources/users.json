@@ -1,0 +1,8 @@
+{
+  "backend_roles": [],
+  "attributes": {},
+  "opendistro_security_roles": [
+    "ilittleangel"
+  ],
+  "password": "123456"
+}

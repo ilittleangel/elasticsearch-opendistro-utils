@@ -1,0 +1,35 @@
+{
+  "index_permissions": [
+    {
+      "index_patterns": [
+        "twitter*"
+      ],
+      "dls": "",
+      "fls": [],
+      "masked_fields": [],
+      "allowed_actions": [
+        "manage",
+        "indices:admin/get",
+        "indices:data/write/index",
+        "indices:data/write/bulk*",
+        "indices:data/read/get",
+        "indices:data/read/search",
+        "indices:data/write/delete",
+        "indices:admin/delete",
+        "indices:admin/create",
+        "indices:monitor/stats",
+        "indices:admin/mapping/put",
+        "cluster:monitor/state"
+      ]
+    }
+  ],
+  "tenant_permissions": [],
+  "cluster_permissions": [
+    "indices_monitor",
+    "cluster:monitor/state",
+    "cluster:monitor/health",
+    "indices:monitor/stats",
+    "cluster:monitor/main",
+    "indices:data/read/scroll/clear"
+  ]
+}

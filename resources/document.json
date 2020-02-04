@@ -1,0 +1,14 @@
+{
+  "_id": "1",
+  "user": "ilittleangel",
+  "user_id": "ilittleangel1234",
+  "hashtags": [
+    "#gopro",
+    "#winter",
+    "#snowboard"
+  ],
+  "post_date": "$post_date",
+  "message" : "trying out Elasticsearch",
+  "location": "Madrid",
+  "likes": "$likes"
+}

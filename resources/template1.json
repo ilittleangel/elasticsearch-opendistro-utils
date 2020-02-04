@@ -1,0 +1,13 @@
+{
+  "index_patterns": ["twitter-*"],
+  "mappings": {
+    "_source": {
+      "enabled": true
+    },
+    "properties": {
+      "user_id": { "type": "keyword" },
+      "location": { "type": "keyword" }
+    }
+  },
+  "version": 1
+}
